@@ -4658,6 +4658,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Src/freertos.c.obj
  ../Inc/FreeRTOSConfig.h
  ../Inc/main.h
  ../Inc/stm32f1xx_hal_conf.h
+ ../Inc/usart.h
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
@@ -4747,84 +4748,6 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Src/gpio.c.obj
  ../Inc/main.h
  ../Inc/stm32f1xx_hal_conf.h
  /home/denis/projects/stm32/TestOS/Src/gpio.c
-CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.obj
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xb.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xe.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101x6.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101xb.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101xe.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101xg.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f102x6.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f102xb.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xg.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f107xc.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
- ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
- ../Drivers/CMSIS/Include/cmsis_armcc.h
- ../Drivers/CMSIS/Include/cmsis_armclang.h
- ../Drivers/CMSIS/Include/cmsis_compiler.h
- ../Drivers/CMSIS/Include/cmsis_gcc.h
- ../Drivers/CMSIS/Include/cmsis_iccarm.h
- ../Drivers/CMSIS/Include/cmsis_version.h
- ../Drivers/CMSIS/Include/core_cm3.h
- ../Drivers/CMSIS/Include/mpu_armv7.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32f1xx_hal_can_ex_legacy.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32f1xx_hal_can_legacy.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cec.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_crc.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dac.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dac_ex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_eth.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_hcd.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2s.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_irda.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_mmc.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_nand.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_nor.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pccard.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sd.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_smartcard.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sram.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_usart.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_wwdg.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_fsmc.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_sdmmc.h
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
- ../Inc/i2c.h
- ../Inc/main.h
- ../Inc/stm32f1xx_hal_conf.h
- /home/denis/projects/stm32/TestOS/Src/i2c.c
 CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xb.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xe.h
@@ -4901,9 +4824,10 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
  ../Inc/FreeRTOSConfig.h
  ../Inc/gpio.h
- ../Inc/i2c.h
  ../Inc/main.h
+ ../Inc/spi.h
  ../Inc/stm32f1xx_hal_conf.h
+ ../Inc/usart.h
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
@@ -4913,6 +4837,84 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h
  /home/denis/projects/stm32/TestOS/Src/main.c
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.obj
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xb.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101x6.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101xb.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101xg.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f102x6.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f102xb.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xg.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f107xc.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm3.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32f1xx_hal_can_ex_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32f1xx_hal_can_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cec.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_crc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dac.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dac_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_eth.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_hcd.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2s.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_irda.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_mmc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_nand.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_nor.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pccard.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sd.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_smartcard.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sram.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_usart.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_wwdg.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_fsmc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_sdmmc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
+ ../Inc/main.h
+ ../Inc/spi.h
+ ../Inc/stm32f1xx_hal_conf.h
+ /home/denis/projects/stm32/TestOS/Src/spi.c
 CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_hal_msp.c.obj
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xb.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xe.h
@@ -5229,3 +5231,81 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Src/system_stm32f1xx.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
  ../Inc/stm32f1xx_hal_conf.h
  /home/denis/projects/stm32/TestOS/Src/system_stm32f1xx.c
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.obj
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xb.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f100xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101x6.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101xb.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f101xg.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f102x6.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f102xb.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xg.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f107xc.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm3.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32f1xx_hal_can_ex_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32f1xx_hal_can_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cec.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_crc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dac.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dac_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_eth.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_hcd.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2s.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_irda.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_mmc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_nand.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_nor.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pccard.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sd.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_smartcard.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sram.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_usart.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_wwdg.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_fsmc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_sdmmc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
+ ../Inc/main.h
+ ../Inc/stm32f1xx_hal_conf.h
+ ../Inc/usart.h
+ /home/denis/projects/stm32/TestOS/Src/usart.c

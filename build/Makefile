@@ -2068,33 +2068,6 @@ Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/gpio.c.s
 .PHONY : Src/gpio.c.s
 
-Src/i2c.obj: Src/i2c.c.obj
-
-.PHONY : Src/i2c.obj
-
-# target to build an object file
-Src/i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.obj
-.PHONY : Src/i2c.c.obj
-
-Src/i2c.i: Src/i2c.c.i
-
-.PHONY : Src/i2c.i
-
-# target to preprocess a source file
-Src/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.i
-.PHONY : Src/i2c.c.i
-
-Src/i2c.s: Src/i2c.c.s
-
-.PHONY : Src/i2c.s
-
-# target to generate assembly for a file
-Src/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.s
-.PHONY : Src/i2c.c.s
-
 Src/main.obj: Src/main.c.obj
 
 .PHONY : Src/main.obj
@@ -2121,6 +2094,33 @@ Src/main.s: Src/main.c.s
 Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.s
 .PHONY : Src/main.c.s
+
+Src/spi.obj: Src/spi.c.obj
+
+.PHONY : Src/spi.obj
+
+# target to build an object file
+Src/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.obj
+.PHONY : Src/spi.c.obj
+
+Src/spi.i: Src/spi.c.i
+
+.PHONY : Src/spi.i
+
+# target to preprocess a source file
+Src/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.i
+.PHONY : Src/spi.c.i
+
+Src/spi.s: Src/spi.c.s
+
+.PHONY : Src/spi.s
+
+# target to generate assembly for a file
+Src/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.s
+.PHONY : Src/spi.c.s
 
 Src/stm32f1xx_hal_msp.obj: Src/stm32f1xx_hal_msp.c.obj
 
@@ -2229,6 +2229,33 @@ Src/system_stm32f1xx.s: Src/system_stm32f1xx.c.s
 Src/system_stm32f1xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/system_stm32f1xx.c.s
 .PHONY : Src/system_stm32f1xx.c.s
+
+Src/usart.obj: Src/usart.c.obj
+
+.PHONY : Src/usart.obj
+
+# target to build an object file
+Src/usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.obj
+.PHONY : Src/usart.c.obj
+
+Src/usart.i: Src/usart.c.i
+
+.PHONY : Src/usart.i
+
+# target to preprocess a source file
+Src/usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.i
+.PHONY : Src/usart.c.i
+
+Src/usart.s: Src/usart.c.s
+
+.PHONY : Src/usart.s
+
+# target to generate assembly for a file
+Src/usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FIRST_STM_LED.elf.dir/build.make CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.s
+.PHONY : Src/usart.c.s
 
 # Help Target
 help:
@@ -2453,12 +2480,12 @@ help:
 	@echo "... Src/gpio.obj"
 	@echo "... Src/gpio.i"
 	@echo "... Src/gpio.s"
-	@echo "... Src/i2c.obj"
-	@echo "... Src/i2c.i"
-	@echo "... Src/i2c.s"
 	@echo "... Src/main.obj"
 	@echo "... Src/main.i"
 	@echo "... Src/main.s"
+	@echo "... Src/spi.obj"
+	@echo "... Src/spi.i"
+	@echo "... Src/spi.s"
 	@echo "... Src/stm32f1xx_hal_msp.obj"
 	@echo "... Src/stm32f1xx_hal_msp.i"
 	@echo "... Src/stm32f1xx_hal_msp.s"
@@ -2471,6 +2498,9 @@ help:
 	@echo "... Src/system_stm32f1xx.obj"
 	@echo "... Src/system_stm32f1xx.i"
 	@echo "... Src/system_stm32f1xx.s"
+	@echo "... Src/usart.obj"
+	@echo "... Src/usart.i"
+	@echo "... Src/usart.s"
 .PHONY : help
 
 

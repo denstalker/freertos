@@ -490,6 +490,10 @@ stm32f1xx_hal_hcd.h
 stm32f1xx_hal_mmc.h
 ../Inc/stm32f1xx_hal_mmc.h
 
+../Inc/usart.h
+main.h
+../Inc/main.h
+
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 cmsis_os2.h
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
@@ -661,4 +665,6 @@ main.h
 /home/denis/projects/stm32/TestOS/Src/main.h
 cmsis_os.h
 /home/denis/projects/stm32/TestOS/Src/cmsis_os.h
+usart.h
+/home/denis/projects/stm32/TestOS/Src/usart.h
 

@@ -97,12 +97,13 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
   "/home/denis/projects/stm32/TestOS/Src/freertos.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/freertos.c.obj"
   "/home/denis/projects/stm32/TestOS/Src/gpio.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/gpio.c.obj"
-  "/home/denis/projects/stm32/TestOS/Src/i2c.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.obj"
   "/home/denis/projects/stm32/TestOS/Src/main.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj"
+  "/home/denis/projects/stm32/TestOS/Src/spi.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.obj"
   "/home/denis/projects/stm32/TestOS/Src/stm32f1xx_hal_msp.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_hal_msp.c.obj"
   "/home/denis/projects/stm32/TestOS/Src/stm32f1xx_hal_timebase_tim.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_hal_timebase_tim.c.obj"
   "/home/denis/projects/stm32/TestOS/Src/stm32f1xx_it.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_it.c.obj"
   "/home/denis/projects/stm32/TestOS/Src/system_stm32f1xx.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/system_stm32f1xx.c.obj"
+  "/home/denis/projects/stm32/TestOS/Src/usart.c" "/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GCC")
 

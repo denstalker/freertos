@@ -7,7 +7,7 @@ ASM_DEFINES = -DSTM32F103xB -DUSE_HAL_LIBRARY
 
 ASM_INCLUDES = -I/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -I/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/include -I/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Include -I/home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Inc -I/home/denis/projects/stm32/TestOS/Inc
 
-ASM_FLAGS = -g
+ASM_FLAGS = 
 
 C_DEFINES = -DSTM32F103xB -DUSE_HAL_LIBRARY
 

@@ -107,22 +107,9 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FIRST_STM_LED.elf.dir/Src/gpio.c.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
-CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.obj: ../Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.obj -c /home/denis/projects/stm32/TestOS/Src/i2c.c
-
-CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
-
-CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
-
 CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj -c /home/denis/projects/stm32/TestOS/Src/main.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.i: cmake_force
@@ -131,6 +118,19 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.i: cmake_force
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.obj: ../Src/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.obj -c /home/denis/projects/stm32/TestOS/Src/spi.c
+
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
@@ -185,9 +185,22 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Src/system_stm32f1xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FIRST_STM_LED.elf.dir/Src/system_stm32f1xx.c.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
 
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.obj: ../Src/usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.obj -c /home/denis/projects/stm32/TestOS/Src/usart.c
+
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -200,7 +213,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.i: cmake_force
@@ -213,7 +226,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.i: cmake_force
@@ -226,7 +239,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i: cmake_force
@@ -239,7 +252,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c.i: cmake_force
@@ -252,7 +265,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -265,7 +278,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.i: cmake_force
@@ -278,7 +291,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c.i: cmake_force
@@ -291,7 +304,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c.i: cmake_force
@@ -304,7 +317,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -317,7 +330,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c.i: cmake_force
@@ -330,7 +343,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -343,7 +356,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -356,7 +369,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -369,7 +382,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -382,7 +395,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -395,7 +408,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c.i: cmake_force
@@ -408,7 +421,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
@@ -421,7 +434,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.i: cmake_force
@@ -434,7 +447,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c.i: cmake_force
@@ -447,7 +460,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c.i: cmake_force
@@ -460,7 +473,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c.i: cmake_force
@@ -473,7 +486,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c.i: cmake_force
@@ -486,7 +499,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c.i: cmake_force
@@ -499,7 +512,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c.i: cmake_force
@@ -512,7 +525,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i: cmake_force
@@ -525,7 +538,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i: cmake_force
@@ -538,7 +551,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -551,7 +564,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -564,7 +577,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -577,7 +590,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c.i: cmake_force
@@ -590,7 +603,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c.i: cmake_force
@@ -603,7 +616,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.i: cmake_force
@@ -616,7 +629,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c.i: cmake_force
@@ -629,7 +642,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i: cmake_force
@@ -642,7 +655,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c.i: cmake_force
@@ -655,7 +668,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -668,7 +681,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -681,7 +694,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
@@ -694,7 +707,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c.i: cmake_force
@@ -707,7 +720,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.i: cmake_force
@@ -720,7 +733,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c.i: cmake_force
@@ -733,7 +746,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_a
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c.i: cmake_force
@@ -746,7 +759,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c.i: cmake_force
@@ -759,7 +772,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_d
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c.i: cmake_force
@@ -772,7 +785,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_d
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c.i: cmake_force
@@ -785,7 +798,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_e
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c.i: cmake_force
@@ -798,7 +811,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_f
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c.i: cmake_force
@@ -811,7 +824,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_g
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c.i: cmake_force
@@ -824,7 +837,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c.i: cmake_force
@@ -837,7 +850,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_p
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c.i: cmake_force
@@ -850,7 +863,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_r
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c.i: cmake_force
@@ -863,7 +876,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_r
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.i: cmake_force
@@ -876,7 +889,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_s
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c.i: cmake_force
@@ -889,7 +902,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_s
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c.i: cmake_force
@@ -902,7 +915,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_t
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c.i: cmake_force
@@ -915,7 +928,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_u
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i: cmake_force
@@ -928,7 +941,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_u
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c.obj -c /home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c.i: cmake_force
@@ -941,7 +954,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_u
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os1.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os1.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os1.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os1.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os1.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os1.c.i: cmake_force
@@ -954,7 +967,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_R
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
@@ -967,7 +980,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_R
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -980,7 +993,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutin
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -993,7 +1006,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_g
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/list.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -1006,7 +1019,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i: cmake_force
@@ -1019,7 +1032,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portabl
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -1032,7 +1045,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portabl
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -1045,7 +1058,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -1058,7 +1071,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -1071,7 +1084,7 @@ CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/FIRST_STM_LED.elf.dir/flags.make
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -c /home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 
 CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -1087,12 +1100,13 @@ FIRST_STM_LED_elf_OBJECTS = \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/gcc/startup_stm32f103xb.s.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Src/freertos.c.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Src/gpio.c.obj" \
-"CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj" \
+"CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_hal_msp.c.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_hal_timebase_tim.c.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_it.c.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Src/system_stm32f1xx.c.obj" \
+"CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj" \
 "CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj" \
@@ -1169,12 +1183,13 @@ FIRST_STM_LED_elf_EXTERNAL_OBJECTS =
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/gcc/startup_stm32f103xb.s.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/freertos.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/gpio.c.obj
-FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/i2c.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/main.c.obj
+FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/spi.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_hal_msp.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_hal_timebase_tim.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/stm32f1xx_it.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/system_stm32f1xx.c.obj
+FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Src/usart.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
@@ -1246,7 +1261,7 @@ FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/Free
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/build.make
 FIRST_STM_LED.elf: CMakeFiles/FIRST_STM_LED.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking C executable FIRST_STM_LED.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/denis/projects/stm32/TestOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Linking C executable FIRST_STM_LED.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FIRST_STM_LED.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/denis/projects/stm32/TestOS/build/FIRST_STM_LED.hex "
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/denis/projects/stm32/TestOS/build/FIRST_STM_LED.bin"

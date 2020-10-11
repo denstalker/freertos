@@ -23,6 +23,7 @@
 #include "task.h"
 #include "main.h"
 #include "cmsis_os.h"
+#include "usart.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */     
@@ -136,8 +137,6 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1000);
-
     osDelay(1);
   }
   /* USER CODE END StartDefaultTask */
@@ -156,13 +155,13 @@ void StartTask02(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
 
     a++;
-    osDelay(1000);
-    osDelay(1);
-  }
+    osDelay(100);
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+    HAL_UART_Transmit(&huart1, (uint8_t*)"AT\n", 3, 1000);
   /* USER CODE END StartTask02 */
+  }
 }
 
 /* USER CODE BEGIN Header_StartTask03 */
@@ -179,6 +178,11 @@ void StartTask03(void *argument)
   for(;;)
   {
 
+    HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
+    uint8_t buff[16] = {0,};
+    HAL_UART_Receive(&huart1, (uint8_t*)buff, 15, 1000);
+     HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
+    osDelay(1000);
     osDelay(1);
   }
   /* USER CODE END StartTask03 */
