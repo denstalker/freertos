@@ -1,0 +1,3 @@
+/home/denis/projects/stm32/TestOS/build/CMakeFiles/rebuild_cache.dir
+/home/denis/projects/stm32/TestOS/build/CMakeFiles/edit_cache.dir
+/home/denis/projects/stm32/TestOS/build/CMakeFiles/FIRST_STM_LED.elf.dir
