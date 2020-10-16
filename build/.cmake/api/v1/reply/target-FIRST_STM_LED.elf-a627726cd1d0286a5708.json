@@ -255,7 +255,7 @@
 				65,
 				66,
 				67,
-				69,
+				68,
 				70,
 				71,
 				72,
@@ -265,7 +265,8 @@
 				76,
 				77,
 				78,
-				79
+				79,
+				80
 			]
 		}
 	],
@@ -299,7 +300,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				68
+				69
 			]
 		},
 		{
@@ -373,7 +374,7 @@
 				65,
 				66,
 				67,
-				69,
+				68,
 				70,
 				71,
 				72,
@@ -383,7 +384,8 @@
 				76,
 				77,
 				78,
-				79
+				79,
+				80
 			]
 		}
 	],
@@ -417,6 +419,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "Src/spi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Src/st7789.c",
 			"sourceGroupIndex" : 1
 		},
 		{

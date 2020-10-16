@@ -23,7 +23,7 @@
 #include "task.h"
 #include "main.h"
 #include "cmsis_os.h"
-#include "usart.h"
+#include "st7789.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */     
@@ -48,6 +48,7 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
 int a = 0;
+    uint8_t buff[16] = {0,};
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -155,13 +156,92 @@ void StartTask02(void *argument)
   /* Infinite loop */
   for(;;)
   {
+    taskENTER_CRITICAL();
+    ST7789_Init(240, 240);
+	  // Инициализация входа для кнопки
+    // Тест вывода основных цветов
+    ST7789_FillScreen(BLACK);
+    ST7789_SetBL(100);
+		
+    uint16_t color = RGB565(255, 0, 0);
+    ST7789_FillScreen(color);
+    HAL_Delay(500);
+  
+    color = RGB565(0, 255, 0);
+    ST7789_FillScreen(color);
+    HAL_Delay(500);
 
-    a++;
-    osDelay(100);
-    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
-    HAL_UART_Transmit(&huart1, (uint8_t*)"AT\n", 3, 1000);
-  /* USER CODE END StartTask02 */
+    color = RGB565(50, 55, 50);
+    ST7789_FillScreen(color);
+    HAL_Delay(500);
+
+    color = RGB565(0, 0, 255);
+    ST7789_FillScreen(color);
+    HAL_Delay(500);
+
+    color = RGB565(255, 255, 0);
+    ST7789_FillScreen(color);
+    HAL_Delay(500);
+
+    color = RGB565(255, 0, 255);
+    ST7789_FillScreen(color);
+    HAL_Delay(500);
+
+    color = RGB565(0, 255, 255);
+    ST7789_FillScreen(color);
+    HAL_Delay(500);
+
+    color = RGB565(255, 255, 255);
+    ST7789_FillScreen(color);
+    HAL_Delay(500);
+		
+    ST7789_FillScreen(BLACK);
+    ST7789_SetBL(100);
+		
+		for (uint8_t y = 0; y<240 ; y++) {
+			ST7789_DrawLine(120, 120, 239, y, RGB565(y+10, 0, 0));
+		}
+   		
+		for (uint8_t x = 0; x<240 ; x++) {
+			ST7789_DrawLine(120, 120, x, 239, RGB565(0, x+10, 0));
+		}
+   
+		for (uint8_t y = 0; y<240 ; y++) {
+			ST7789_DrawLine(120, 120, 0, y, RGB565(0, 0, y+10));
+		}
+ 
+		for (uint8_t x = 0; x<240 ; x++) {
+			ST7789_DrawLine(120, 120, x, 0, RGB565(x+10, x+10, x+10));
+		}
+    HAL_Delay(1000);
+
+    ST7789_FillScreen(BLACK);
+    ST7789_SetBL(100);
+
+    for (uint8_t x = 0; x < 240 ; x = x + 20) {
+			for (uint8_t y = 0; y < 240; y = y + 20) {
+				ST7789_DrawRectangleFilled(x + 3, y + 3, x + 17, y + 17, RGB565(x, y, 0));
+				ST7789_DrawRectangle(x + 2, y + 2, x + 19, y + 19, RGB565(250, 250, 250));
+			}
+		}
+    HAL_Delay(1000);
+
+    ST7789_FillScreen(BLACK);
+    ST7789_SetBL(100);
+
+    for (uint8_t x = 0; x < 240 ; x = x + 20) {
+			for (uint8_t y = 0; y < 240; y = y + 20) {
+        ST7789_DrawCircleFilled(x + 10, y + 10, 8, RGB565(x, y, 0));
+        ST7789_DrawCircle(x + 10, y + 10, 9, RGB565(0, y, x));
+			}
+		}
+    HAL_Delay(1000);
+
+    ST7789_FillScreen(BLACK);
+    ST7789_SetBL(100);
+    taskEXIT_CRITICAL();
   }
+  /* USER CODE END StartTask02 */
 }
 
 /* USER CODE BEGIN Header_StartTask03 */
@@ -178,9 +258,6 @@ void StartTask03(void *argument)
   for(;;)
   {
 
-    HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
-    uint8_t buff[16] = {0,};
-    HAL_UART_Receive(&huart1, (uint8_t*)buff, 15, 1000);
      HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
     osDelay(1000);
     osDelay(1);
