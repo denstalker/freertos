@@ -1,7 +1,10 @@
-// #include "stm32f1xx_hal.h"
+ #include "stm32f1xx_hal.h"
 #include <st7789.h>
+#include "font5x7.h"
+#include "font7x11.h"
 #include <gpio.h>
 #include <stdlib.h>
+#include <string.h>
 
 uint8_t ST7789_Width, ST7789_Height;
 
@@ -15,29 +18,29 @@ void ST7789_Init(uint8_t Width, uint8_t Height)
   ST7789_SleepModeExit();
 
   ST7789_ColorModeSet(ST7789_ColorMode_65K | ST7789_ColorMode_16bit);
-  HAL_Delay(10);
+  osDelay(10);
   ST7789_MemAccessModeSet(4, 1, 1, 0);
-  HAL_Delay(10);
+  osDelay(10);
   ST7789_InversionMode(1);
-  HAL_Delay(10);
+  osDelay(10);
   ST7789_FillScreen(0);
   ST7789_SetBL(10);
   ST7789_DisplayPower(1);
-  HAL_Delay(100);
+  osDelay(100);
 }
 
 void ST7789_HardReset(void)
 {
 	HAL_GPIO_WritePin(RES_GPIO_Port, RES_Pin, GPIO_PIN_RESET);
-	HAL_Delay(10);
+    osDelay(10);
   HAL_GPIO_WritePin(RES_GPIO_Port, RES_Pin, GPIO_PIN_SET);
-  HAL_Delay(150);
+  osDelay(150);
 }
 
 void ST7789_SoftReset(void)
 {
   ST7789_SendCmd(ST7789_Cmd_SWRESET);
-  HAL_Delay(130);
+  osDelay(130);
 }
 
 void ST7789_SendCmd(uint8_t Cmd)
@@ -61,13 +64,13 @@ void ST7789_SendData(uint8_t Data)
 void ST7789_SleepModeEnter( void )
 {
 	ST7789_SendCmd(ST7789_Cmd_SLPIN);
-  HAL_Delay(500);
+  osDelay(500);
 }
 
 void ST7789_SleepModeExit( void )
 {
 	ST7789_SendCmd(ST7789_Cmd_SLPOUT);
-  HAL_Delay(500);
+  osDelay(500);
 }
 
 
@@ -237,8 +240,10 @@ void ST7789_DrawRectangleFilled(int16_t x1, int16_t y1, int16_t x2, int16_t y2, 
 
 void ST7789_DrawLine(int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color) 
 {
+  // Вертикальная линия
   if (x1 == x2)
   {
+    // Отрисовываем линию быстрым методом
     if (y1 > y2)
       ST7789_FillRect(x1, y2, 1, y1 - y2 + 1, color);
     else
@@ -246,8 +251,10 @@ void ST7789_DrawLine(int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t co
     return;
   }
   
+  // Горизонтальная линия
   if (y1 == y2)
   {
+    // Отрисовываем линию быстрым методом
     if (x1 > x2)
       ST7789_FillRect(x2, y1, x1 - x2 + 1, 1, color);
     else
@@ -374,3 +381,74 @@ void ST7789_DrawCircle(int16_t x0, int16_t y0, int16_t radius, uint16_t color)
     --y;
   }
 }
+
+void ST7789_DrawChar_5x8(uint16_t x, uint16_t y, uint16_t TextColor, uint16_t BgColor, uint8_t TransparentBg, unsigned char c) 
+{
+  if((x >= 240) || (y >= 240) || ((x + 4) < 0) || ((y + 7) < 0)) return;
+  if(c<128)            c = c-32;
+  if(c>=144 && c<=175) c = c-48;
+  if(c>=128 && c<=143) c = c+16;
+  if(c>=176 && c<=191) c = c-48;
+  if(c>191)  return;
+  for (uint8_t i=0; i<6; i++ ) 
+	{
+		uint8_t line;
+    if (i == 5) line = 0x00;
+    else line = font[(c*5)+i];
+		for (uint8_t j = 0; j<8; j++)
+		{
+			if (line & 0x01) ST7789_DrawPixel(x + i, y + j, TextColor);
+			else if (!TransparentBg) ST7789_DrawPixel(x + i, y + j, BgColor);
+			line >>= 1;
+		}
+	}
+}
+
+void ST7789_DrawChar_7x11(uint16_t x, uint16_t y, uint16_t TextColor, uint16_t BgColor, uint8_t TransparentBg, unsigned char c) 
+{
+	uint8_t i,j;
+  uint8_t buffer[11];
+	
+  if((x >= 240) || (y >= 240) || ((x + 4) < 0) || ((y + 7) < 0)) return;
+	
+	// Copy selected simbol to buffer
+	memcpy(buffer,&font7x11[(c-32)*11],11);
+	for(j=0;j<11;j++)
+	{
+		for(i=0;i<7;i++)
+		{
+			if ((buffer[j] & (1<<i)) == 0) 
+			{
+				if (!TransparentBg) ST7789_DrawPixel(x + i, y + j, BgColor);
+			}
+			else ST7789_DrawPixel(x + i, y + j, TextColor);
+		}			
+	}
+}
+
+void ST7789_print_5x8(uint16_t x, uint16_t y, uint16_t TextColor, uint16_t BgColor, uint8_t TransparentBg, char *str) 
+{
+  unsigned char type = *str;
+  if (type>=128) x = x - 3;
+  while (*str)
+	{		
+		ST7789_DrawChar_5x8(x, y, TextColor, BgColor, TransparentBg, *str++); 
+    unsigned char type = *str;
+    if (type>=128) x=x+3;
+    else x=x+6;
+  }
+}
+
+void ST7789_print_7x11(uint16_t x, uint16_t y, uint16_t TextColor, uint16_t BgColor, uint8_t TransparentBg, char *str) 
+{
+  unsigned char type = *str;
+  if (type>=128) x = x - 3;
+  while (*str)
+	{		
+		ST7789_DrawChar_7x11(x, y, TextColor, BgColor, TransparentBg, *str++); 
+    unsigned char type = *str;
+    if (type>=128) x=x+8;
+    else x=x+8;
+  }
+}
+

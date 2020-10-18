@@ -24,6 +24,9 @@
 #include "spi.h"
 #include "usart.h"
 #include "gpio.h"
+#include "FreeRTOS.h"
+#include "st7789.h"
+
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -94,11 +97,14 @@ int main(void)
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
 HAL_GPIO_WritePin(BLK_GPIO_Port, BLK_Pin, GPIO_PIN_SET);
+
   /* USER CODE END 2 */
 
   /* Init scheduler */
   osKernelInitialize();  /* Call init function for freertos objects (in freertos.c) */
   MX_FREERTOS_Init(); 
+    ST7789_Init(240, 240);
+    ST7789_FillScreen(BLACK);
   /* Start scheduler */
   osKernelStart();
  

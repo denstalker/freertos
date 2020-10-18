@@ -18,7 +18,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FIRST_STM_LED.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FIRST_STM_LED.elf-a627726cd1d0286a5708.json",
+					"jsonFile" : "target-FIRST_STM_LED.elf-Debug-5b9145e87e2957a68a00.json",
 					"name" : "FIRST_STM_LED.elf",
 					"projectIndex" : 0
 				}

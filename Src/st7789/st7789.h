@@ -53,7 +53,7 @@
 #define YELLOW   0xFFE0 
 #define WHITE    0xFFFF
 
-// �������� ������� ������������ �����/�������� �����������
+// —мещение матрицы относительно строк/столбцов контроллера
 #define ST7789_X_Start          0
 #define ST7789_Y_Start          0
 
@@ -83,5 +83,10 @@ static void ST7789_DrawLine_Slow(int16_t x1, int16_t y1, int16_t x2, int16_t y2,
 void ST7789_DrawPixel(int16_t x, int16_t y, uint16_t color);
 void ST7789_DrawCircleFilled(int16_t x0, int16_t y0, int16_t radius, uint16_t fillcolor);
 void ST7789_DrawCircle(int16_t x0, int16_t y0, int16_t radius, uint16_t color);
-
+void ST7789_DrawChar_5x8(uint16_t x, uint16_t y, uint16_t TextColor, uint16_t BgColor, uint8_t TransparentBg, unsigned char c);
+void ST7789_DrawChar_7x11(uint16_t x, uint16_t y, uint16_t TextColor, uint16_t BgColor, uint8_t TransparentBg, unsigned char c);
+void ST7789_print_5x8(uint16_t x, uint16_t y, uint16_t TextColor, uint16_t BgColor, uint8_t TransparentBg, char *str); 
+void ST7789_print_7x11(uint16_t x, uint16_t y, uint16_t TextColor, uint16_t BgColor, uint8_t TransparentBg, char *str); 
+	
 #endif
+ 

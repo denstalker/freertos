@@ -26,7 +26,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 40,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -39,12 +39,6 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 14,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -82,12 +76,30 @@
 				"file" : 0,
 				"line" : 37,
 				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
 			}
 		]
 	},
 	"compileGroups" : 
 	[
 		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
 			"defines" : 
 			[
 				{
@@ -103,30 +115,34 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"
+					"path" : "/home/denis/projects/stm32/TestOS/Src/st7789"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/include"
+					"path" : "/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Include"
+					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
+					"path" : "/home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 11,
 					"path" : "/home/denis/projects/stm32/TestOS/Inc"
 				}
 			],
@@ -158,30 +174,34 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"
+					"path" : "/home/denis/projects/stm32/TestOS/Src/st7789"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/include"
+					"path" : "/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Include"
+					"path" : "/home/denis/projects/stm32/TestOS/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "/home/denis/projects/stm32/TestOS/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
+					"path" : "/home/denis/projects/stm32/TestOS/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 11,
 					"path" : "/home/denis/projects/stm32/TestOS/Inc"
 				}
 			],
@@ -424,7 +444,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "Src/st7789.c",
+			"path" : "Src/st7789/st7789.c",
 			"sourceGroupIndex" : 1
 		},
 		{

@@ -16,6 +16,7 @@ add_definitions(-DUSE_HAL_LIBRARY)
 # file(GLOB_RECURSE USER_SOURCES Src/*.c)
 
 file(GLOB_RECURSE USER_SOURCES Src/*.c)
+file(GLOB_RECURSE ST7789_SOURCES Src/st7789/*.c)
 file(GLOB_RECURSE FREERTOS_SOURCES Middlewares/Third_Party/FreeRTOS/Source/*.c)
 file(GLOB_RECURSE CMSIS_RTOS_V2_SOURCES Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/*.c)
 file(GLOB_RECURSE ARM_CM3_SOURCES Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/*.c)
@@ -28,6 +29,7 @@ file(GLOB_RECURSE CMSIS_STARTUP Drivers/CMSIS/Device/ST/${MCU_FAMILY}/Source/Tem
 
 set(SOURCE_FILES ${CMSIS_STARTUP} ${USER_SOURCES} ${HAL_SOURCES} ${CMSIS_SYSTEM} ${MCU_LINKER_SCRIPT} ${FREERTOS_SOURCES} ${CMSIS_RTOS_V2_SOURCES} ${ARM_CM3_SOURCES} ${MEMMANG_SOURCES})
 
+include_directories(Src/st7789)
 include_directories(Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3)
 include_directories(Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2)
 include_directories(Drivers/CMSIS/Device/ST/STM32F1xx/Include)
