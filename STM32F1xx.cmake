@@ -11,7 +11,7 @@ set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
 CMAKE_FORCE_C_COMPILER(arm-none-eabi-gcc GCC)
 CMAKE_FORCE_CXX_COMPILER(arm-none-eabi-g++ GCC)
 
-set(COMMON_FLAGS "-mcpu=${MCU_ARCH} -mthumb  -mfloat-abi=${MCU_FLOAT_ABI}  -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF")
+set(COMMON_FLAGS "-mcpu=${MCU_ARCH} -mthumb -specs=nano.specs -specs=nosys.specs -mfloat-abi=${MCU_FLOAT_ABI}  -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF")
 
 if (MCU_FLOAT_ABI STREQUAL hard)
     set(COMMON_FLAGS "${COMMON_FLAGS} -mfpu=${MCU_FPU}")

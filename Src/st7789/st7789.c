@@ -5,6 +5,8 @@
 #include <gpio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <FreeRTOS.h>
+#include <task.h>
 
 uint8_t ST7789_Width, ST7789_Height;
 
@@ -18,29 +20,29 @@ void ST7789_Init(uint8_t Width, uint8_t Height)
   ST7789_SleepModeExit();
 
   ST7789_ColorModeSet(ST7789_ColorMode_65K | ST7789_ColorMode_16bit);
-  osDelay(10);
+  HAL_Delay(10);
   ST7789_MemAccessModeSet(4, 1, 1, 0);
-  osDelay(10);
+  HAL_Delay(10);
   ST7789_InversionMode(1);
-  osDelay(10);
+  HAL_Delay(10);
   ST7789_FillScreen(0);
   ST7789_SetBL(10);
   ST7789_DisplayPower(1);
-  osDelay(100);
+  HAL_Delay(100);
 }
 
 void ST7789_HardReset(void)
 {
 	HAL_GPIO_WritePin(RES_GPIO_Port, RES_Pin, GPIO_PIN_RESET);
-    osDelay(10);
+    HAL_Delay(10);
   HAL_GPIO_WritePin(RES_GPIO_Port, RES_Pin, GPIO_PIN_SET);
-  osDelay(150);
+  HAL_Delay(150);
 }
 
 void ST7789_SoftReset(void)
 {
   ST7789_SendCmd(ST7789_Cmd_SWRESET);
-  osDelay(130);
+  HAL_Delay(130);
 }
 
 void ST7789_SendCmd(uint8_t Cmd)
@@ -54,23 +56,26 @@ void ST7789_SendCmd(uint8_t Cmd)
 
 void ST7789_SendData(uint8_t Data)
 {
-	HAL_GPIO_WritePin(DC_GPIO_Port, DC_Pin, GPIO_PIN_SET);
+
+    taskENTER_CRITICAL();
+    HAL_GPIO_WritePin(DC_GPIO_Port, DC_Pin, GPIO_PIN_SET);
   //HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_RESET);
   if (READ_BIT(SPI1->CR1, SPI_CR1_SPE) != (SPI_CR1_SPE)) SET_BIT(SPI1->CR1, SPI_CR1_SPE);
 	*((__IO uint8_t *)&SPI1->DR) = Data;
   //HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_SET);
+  taskEXIT_CRITICAL();
 }
 
 void ST7789_SleepModeEnter( void )
 {
 	ST7789_SendCmd(ST7789_Cmd_SLPIN);
-  osDelay(500);
+  HAL_Delay(500);
 }
 
 void ST7789_SleepModeExit( void )
 {
 	ST7789_SendCmd(ST7789_Cmd_SLPOUT);
-  osDelay(500);
+  HAL_Delay(500);
 }
 
 
