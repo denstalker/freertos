@@ -94,6 +94,12 @@
 	"compileGroups" : 
 	[
 		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
 			"defines" : 
 			[
 				{

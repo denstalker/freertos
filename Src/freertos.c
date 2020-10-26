@@ -30,6 +30,7 @@
 #include "st7789.h"
 #include "adc.h"
 #include <stdio.h>
+#include "usart.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -54,6 +55,7 @@ char buff[16] = {0,};
 char str[60] = {'A','B'};
 float adc_read = 0;
 char pcWriteBuffer[256];
+char d = 'A';
 
 
 /* USER CODE END Variables */
@@ -78,6 +80,13 @@ const osThreadAttr_t myTask03_attributes = {
   .priority = (osPriority_t) osPriorityNormal,
   .stack_size = 128 * 4
 };
+/* Definitions for uartTask */
+osThreadId_t uartTaskHandle;
+const osThreadAttr_t uartTask_attributes = {
+  .name = "uartTask",
+  .priority = (osPriority_t) osPriorityNormal,
+  .stack_size = 128 * 4
+};
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -87,6 +96,7 @@ const osThreadAttr_t myTask03_attributes = {
 void StartTopTask(void *argument);
 void StartTask02(void *argument);
 void StartTask03(void *argument);
+void StartUartTask(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -157,6 +167,9 @@ void MX_FREERTOS_Init(void) {
 
   /* creation of myTask03 */
   myTask03Handle = osThreadNew(StartTask03, NULL, &myTask03_attributes);
+
+  /* creation of uartTask */
+  uartTaskHandle = osThreadNew(StartUartTask, NULL, &uartTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -231,6 +244,7 @@ void StartTask02(void *argument)
       osDelay(1);
       ST7789_print_7x11(40, 160, YELLOW, RGB565(0, 0, 0), 0,str);
       ST7789_print_7x11(0, 10, WHITE, RGB565(0, 0, 0), 0,pcWriteBuffer);
+      ST7789_DrawChar_7x11(0,200,RED,BLACK,0,d);
 
 
       osDelay(100);
@@ -264,6 +278,40 @@ void StartTask03(void *argument)
       osDelay(1);
   }
   /* USER CODE END StartTask03 */
+}
+
+/* USER CODE BEGIN Header_StartUartTask */
+/**
+* @brief Function implementing the uartTask thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_StartUartTask */
+void StartUartTask(void *argument)
+{
+  /* USER CODE BEGIN StartUartTask */
+  /* Infinite loop */
+  for(;;)
+  {
+
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_11,GPIO_PIN_RESET);
+      osDelay(100);
+
+      HAL_UART_Transmit(&huart1, (uint8_t*)"AT+DEFAULT\r\n",12,1000);
+      osDelay(100);
+
+      HAL_UART_Transmit(&huart1, (uint8_t*)"AT+RX\r\n", 7, 1000);
+      osDelay(100);
+
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_11,GPIO_PIN_SET);
+      osDelay(100);
+
+
+      HAL_UART_Transmit(&huart1, (uint8_t*)"AAAAAAA", 7, 1000);
+
+      osDelay(1000);
+  }
+  /* USER CODE END StartUartTask */
 }
 
 /* Private application code --------------------------------------------------*/
